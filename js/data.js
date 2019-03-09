@@ -2,7 +2,7 @@
 
 $.ajax({ 
     type: 'GET', 
-    url: '/Suplementos/js/data.php', 
+    url: 'js/data.php', 
     datatype: 'json',
 
     success: function(response){
@@ -12,5 +12,7 @@ $.ajax({
 
     }
 });
+
+
 
 

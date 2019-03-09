@@ -17,12 +17,12 @@
 <body>
 
 		<ul id="dropdown1"  class="dropdown-content ">
-  <li><a onclick="renderProduct(1)">Proteinas</a></li>
-  <li><a onclick="renderProduct(2)">Aminoacidos</a></li>
-  <li><a onclick="renderProduct(3)">creatinas</a></li>
-  <li><a onclick="renderProduct(4)">Oxido Nitrico</a></li>
-  <li><a onclick="renderProduct(5)">Quemadores</a></li>
-  <li><a onclick="renderProduct(6)">Accesorios</a></li>
+  <li><a onclick="renderProduct(1), eliminar()">Proteinas</a></li>
+  <li><a onclick="renderProduct(2), eliminar()">Aminoacidos</a></li>
+  <li><a onclick="renderProduct(3), eliminar()">creatinas</a></li>
+  <li><a onclick="renderProduct(4), eliminar()">Oxido Nitrico</a></li>
+  <li><a onclick="renderProduct(5), eliminar()">Quemadores</a></li>
+  <li><a onclick="renderProduct(6), eliminar()">Accesorios</a></li>
 </ul>
 
 
@@ -32,10 +32,10 @@
 					   <ul class="left">
 					    <!-- Dropdown -->
 					    <li><a class="dropdown-trigger " href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
-					       <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " href= "index.php">Agregar nuevo producto</a></th></li>
+					       <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " href= "ingresar_proceso.php">Agregar nuevo producto</a></th></li>
 					        <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " onclick="muestraTodos(1)">Todos Los Productos</a></th></li>
 
-					    <li><a class="dropdown-trigger " href="/Suplementos/index.php" >Regresar</a></li>
+					    <li><a class="dropdown-trigger " href="index.php" >Regresar</a></li>
 					 
 					  </div>
 					</nav>
@@ -43,6 +43,9 @@
 					 <div class="container">
 					  <div class="row" id="productosDiv"></div>
 					</div>
+					<div class="container">
+  <div class="row" id="productosDiv1"></div>
+</div>
 
 		
 

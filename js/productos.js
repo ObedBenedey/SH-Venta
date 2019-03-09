@@ -38,7 +38,7 @@ function render(tipo) {
 
   	"<div class='card'>"
   	+"<div class='card-image'>"
-	+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+"dbprotes/"+product.Imagen+">"+ "</img></a>"
+	+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+product.Imagen+">"+ "</img></a>"
   	+"</div>"
   	+"<div class='card-content'>" 
   	+"<p  class=' product-name truncate' >  " + "<b>"+ product.nombre + "</b>" + "<p>"
@@ -79,7 +79,7 @@ function renderProducts(tipo) {
 
 		"<div class='card'>"
 		+"<div class='card-image'>"
-		+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+"dbprotes/"+product.Imagen+">"+ "</img></a>"
+		+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+product.Imagen+">"+ "</img></a>"
 		+"</div>"
 		+"<div class='card-content'>" 
 		+"<p  class=' product-name truncate' >  " + "<b>"+ product.nombre + "</b>" + "<p>"
@@ -117,7 +117,7 @@ function renderProducts2(tipo) {
 
 		"<div class='card'>"
 		+"<div class='card-image'>"
-		+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+"dbprotes/"+product.Imagen+">"+ "</img></a>"
+		+"<a  href='descripciones.php?id="+product.id+"'><img class='product-image' src="+product.Imagen+">"+ "</img></a>"
 		+"</div>"
 		+"<div class='card-content'>" 
 		+"<p  class=' product-name truncate' >  " + "<b>"+ product.nombre + "</b>" + "<p>"

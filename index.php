@@ -30,7 +30,7 @@ session_start();
      </div>
      <?php 
      //si esta llena pero al mismo tiempo es igual a obed (super usuario)entonces:
-   }else if ($_SESSION['nombre']=='obed') {
+   }else if ($_SESSION['nombre']=='mario') {
     ?>
     <div class="right ">
      <a  class="waves-effect waves-light btn modal-trigger btn-login" href="#modal1"><i class="material-icons left">account_circle</i>
@@ -49,7 +49,7 @@ session_start();
     </div>
     <div class="modal-footer">
       <a href="registrar.php" class="modal-close waves-effect waves-green btn-flat">Alta de Usuario</a>
-      <a href="dbprotes/mostrar.php" class="modal-close waves-effect waves-green btn-flat">Agregar Productos</a>
+      <a href="mostrar.php" class="modal-close waves-effect waves-green btn-flat">Agregar Productos</a>
       <a href="cerrar.php" class="modal-close waves-effect waves-green btn-flat">Cerrrar sesion</a>
     </div>
   </div>

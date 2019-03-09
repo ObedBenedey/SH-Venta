@@ -31,7 +31,7 @@ session_start();
    <div class="conteriner">
      <div class="card-panel card-login margin-login">
        <div class="center">
-         <td><img class="imgs-productos" height="200px" src="dbprotes/<?php echo $row['Imagen'] ?>"/></td>
+         <td><img class="imgs-productos" height="200px" src="<?php echo $row['Imagen'] ?>"/></td>
        </div>
        <div class="card-content center">
          <p class=" product-name truncate"><b><?php echo $row['nombre'] ?> </b><p>
@@ -52,6 +52,7 @@ session_start();
 }
   ?>
              <p>Descripcion del producto: <?php echo $row['descripcion'] ?></p>
+      <a class="btn-flat" href="index.php">Regresar</a>
 
            </div>
          </div>
