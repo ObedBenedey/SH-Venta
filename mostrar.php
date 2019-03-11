@@ -33,9 +33,9 @@
 					    <!-- Dropdown -->
 					    <li><a class="dropdown-trigger " href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
 					       <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " href= "ingresar_proceso.php">Agregar nuevo producto</a></th></li>
-					        <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " onclick="muestraTodos(1)">Todos Los Productos</a></th></li>
+					        <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " onclick="muestraTodos(1), eliminar()">Todos Los Productos</a></th></li>
 
-					    <li><a class="dropdown-trigger " href="index.php" >Regresar</a></li>
+					    <li><a class="dropdown-trigger " href="index.php">Regresar</a></li>
 					 
 					  </div>
 					</nav>

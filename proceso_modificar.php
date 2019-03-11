@@ -12,7 +12,7 @@ $stock = $_POST['stock'];
 
 $foto=$_FILES["Imagen"]["name"];
 $ruta=$_FILES["Imagen"]["tmp_name"];
-$destino="imagenes/".$foto;
+$destino="./imagenes/".$foto;
 copy($ruta,$destino);
 
 
