@@ -7,7 +7,7 @@ $.ajax({
 
     success: function(response){
     	productos = $.parseJSON(response).data;
-    	render(1);
+    	render(10);
 
 
     }

@@ -48,7 +48,7 @@ session_start();
 if (empty($_SESSION['nombre'])) {} else if ($_SESSION['nombre']=='obed') {
        ?>
       <div class="center">
-        <a class="waves-effect waves-light btn" onclick="registrar()">Registrate</a>
+        <a class="botn" onclick="registrar()">Registrate</a>
       </div>
     <?php } ?>
      </div>

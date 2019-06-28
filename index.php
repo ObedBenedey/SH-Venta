@@ -95,6 +95,11 @@ session_start();
   <li><a onclick="renderProducts(4), eliminar()">Oxido Nitrico</a></li>
   <li><a onclick="renderProducts(5), eliminar()">Quemadores</a></li>
   <li><a onclick="renderProducts(6), eliminar()">Accesorios</a></li>
+  <li><a onclick="renderProducts(7), eliminar()">Ganadores</a></li>
+  <li><a onclick="renderProducts(8), eliminar()">Carbohidratos</a></li>
+  <li><a onclick="renderProducts(9), eliminar()">Varios</a></li>
+  <li><a onclick="renderProducts(10), eliminar()">Proximos productos</a></li>
+
 </ul>
 
 <ul id="dropdown2"  class="dropdown-content ">
@@ -104,6 +109,10 @@ session_start();
   <li><a onclick="renderProducts2(4), eliminar()">Oxido Nitrico</a></li>
   <li><a onclick="renderProducts2(5), eliminar()">Quemadores</a></li>
   <li><a onclick="renderProducts2(6), eliminar()">Accesorios</a></li>
+  <li><a onclick="renderProducts(7), eliminar()">Ganadores</a></li>
+  <li><a onclick="renderProducts(8), eliminar()">Carbohidratos</a></li>
+  <li><a onclick="renderProducts(9), eliminar()">Varios</a></li>
+  <li><a onclick="renderProducts(10), eliminar()">Proximos productos</a></li>
 </ul>
 
 
@@ -125,16 +134,19 @@ session_start();
 
     <li><a class="dropdown-trigger " href="#!" data-target="dropdown2">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
 <?php } ?>
-    <li><a href="https://www.facebook.com/Suplementosh-217516315801274/">Facebook</a></li>
+    <li><a target="_blank" href="https://www.facebook.com/Suplementosh-217516315801274/">Facebook</a></li>
   </div>
 </nav>
 
 </head>
  
-
+  <div class="container">
+      <div class="row" id="buscador"></div>
+    </div>
  <div class="container">
   <div class="row" id="productosDiv"></div>
 </div>
+
 <body>
 <div class="container">
   <div class="row" id="productosDiv1"></div>
@@ -162,17 +174,22 @@ session_start();
         <p class="grey-text text-lighten-4">Somos Suplementos Fitness Deportivos México, una familia fitness que te ofrece todos los suplementos, accesorios, consejos y asesorías que necesites para que logres transformar tu cuerpo a tu gusto y manera. ¡Queremos que seas tu mejor versión!
 
         Tenemos todo para el gym: suplementos de proteínas, quemadores de grasa, ganadores de masa, aminoácidos, shakers, pre-entrenos y mucho más. ¡Marcas de suplementos 100% originales y de la mejor calidad!</p>
+
       </div>
+
 
     </div>
   </div>
   <div class="footer-copyright">
     <div class="container">
       © 2019 Copyright Text
-      <a class="grey-text text-lighten-4 right" href="https://www.facebook.com/Suplementosh-217516315801274/">Mas infromación</a>
+      <a class="grey-text text-lighten-4 right" target="_blank" href="https://www.facebook.com/Suplementosh-217516315801274/">Mas infromación</a>
     </div>
+
   </div>
+
 </footer>
+
 
 </html>
 

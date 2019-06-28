@@ -51,7 +51,7 @@ session_start();
   //pero si no imprime esto que solo es que no puede hagregar productos
 }
   ?>
-             <p>Descripcion del producto: <?php echo $row['descripcion'] ?></p>
+             <p>  <?php echo $row['descripcion'] ?></p>
       <a class="btn-flat" href="index.php">Regresar</a>
 
            </div>

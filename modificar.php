@@ -23,6 +23,10 @@
 	$row = $resultado->fetch_assoc();
 	?>
 
+<?php 
+$resultado = str_replace("<br />", " ", $row['descripcion']);
+ ?>
+
 	<center> 
 		<form action="proceso_modificar.php?id=<?php echo $row['id']; ?>" method="POST" enctype="multipart/form-data">
 			<div class="row">
@@ -31,16 +35,25 @@
 						<div class="center" col s3 m6 l6>
 
 							<input type="text" REQUIRED name="nombre" placeholder="Nombre..." value="<?php echo $row['nombre']; ?>"/> 
-							<input type="text" REQUIRED name="descripcion" placeholder="descripcion..." value="<?php echo $row['descripcion']; ?>"/> 
+							<textarea type="text" REQUIRED name="descripcion" placeholder="Ingresa la descripcion" value=""><?php echo $resultado ?></textarea> 
 							<select REQUIRED  name="tipo">
-								<option disabled>Selecciona tu producto</option>	
+								 <label>Selecciona tu producto</label>
 
-								<option value="1">Proteínas</option>
+								<option selected value="1">Proteínas</option>
 								<option value="2">Aminoacidos</option>
 								<option value="3">Creatinas</option>
 								<option value="4">Oxido Nitrico</option>
 								<option value="5">Quemadores</option>
 								<option value="6">Accesorios</option>
+								<option value="7">Ganadores</option>
+								<option value="8">Carbohidratos</option>
+								<option value="9">Varios</option>
+								<option value="10">Proximos productos</option>
+
+
+
+
+
 							</select> 
 							<input type="number" REQUIRED name="precio" placeholder="Precio al Publico:" value="<?php echo $row['precio']; ?>"/> 
 							<input type="number" REQUIRED name="precioAdmin" placeholder="Precio de Proveedor:" value="<?php echo $row['precioAdmin']; ?>"/>

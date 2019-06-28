@@ -17,7 +17,7 @@ session_start();
 	<title>Registro</title>
 </head>
 <?php  
-if (empty($_SESSION['nombre'])) {}else if($_SESSION['nombre']=='obed') {
+if (empty($_SESSION['nombre'])) {}else if($_SESSION['nombre']=='mario') {
 
 
 

@@ -13,16 +13,20 @@
   <!--Import css-->
   <link rel="stylesheet" type="text/css" href="css/main.css">
 
-</head>
-<body>
 
-		<ul id="dropdown1"  class="dropdown-content ">
+
+
+<ul id="dropdown1"  class="dropdown-content ">
   <li><a onclick="renderProduct(1), eliminar()">Proteinas</a></li>
   <li><a onclick="renderProduct(2), eliminar()">Aminoacidos</a></li>
   <li><a onclick="renderProduct(3), eliminar()">creatinas</a></li>
   <li><a onclick="renderProduct(4), eliminar()">Oxido Nitrico</a></li>
   <li><a onclick="renderProduct(5), eliminar()">Quemadores</a></li>
   <li><a onclick="renderProduct(6), eliminar()">Accesorios</a></li>
+  <li><a onclick="renderProduct(7), eliminar()">Ganadores</a></li>
+  <li><a onclick="renderProduct(8), eliminar()">Carbohidratos</a></li>
+  <li><a onclick="renderProduct(9), eliminar()">Varios</a></li>
+  <li><a onclick="renderProduct(10), eliminar()">Proximos productos</a></li>
 </ul>
 
 
@@ -33,21 +37,22 @@
 					    <!-- Dropdown -->
 					    <li><a class="dropdown-trigger " href="#!" data-target="dropdown1">Productos<i class="material-icons right">arrow_drop_down</i></a></li>
 					       <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " href= "ingresar_proceso.php">Agregar nuevo producto</a></th></li>
-					        <li><th colspan= "9" class= "center"><a class= "waves-effect waves-light " onclick="muestraTodos(1), eliminar()">Todos Los Productos</a></th></li>
+					      
 
 					    <li><a class="dropdown-trigger " href="index.php">Regresar</a></li>
 					 
 					  </div>
 					</nav>
 
+					</head>
+
+					<body>
+
 					 <div class="container">
 					  <div class="row" id="productosDiv"></div>
 					</div>
-					<div class="container">
-  <div class="row" id="productosDiv1"></div>
-</div>
 
-		
+ 
 
 <script type="text/javascript" src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 <script type="text/javascript" src="js/materialize.min.js"></script>

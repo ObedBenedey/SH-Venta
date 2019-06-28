@@ -3,7 +3,8 @@ include("conexion.php");
 
 $id = $_REQUEST['id'];
 $nombre = $_POST['nombre'];
-$descripcion = $_POST['descripcion'];
+$descripcio = $_POST['descripcion'];
+$descripcion= nl2br($descripcio);
 $tipo = $_POST['tipo'];
 $precio = $_POST['precio'];
 $precioAdministrador = $_POST['precioAdmin'];

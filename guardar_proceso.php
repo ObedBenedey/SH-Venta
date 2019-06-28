@@ -8,7 +8,10 @@ $destino="./imagenes/".$foto;
 copy($ruta,$destino);
 //}
 
-$descripcion = $_POST['descripcion'];
+$descripcio = $_POST['descripcion'];
+
+$descripcion= nl2br($descripcio);
+
 $tipo = $_POST['tipo'];
 $precio = $_POST['precio'];
 $precioAdministrador = $_POST['precioAdministrador'];

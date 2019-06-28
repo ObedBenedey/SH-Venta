@@ -22,8 +22,10 @@
 					<div class="card-panel card-login margin-login">
 						<div class="center" col s3 m6 l6>
 
+
+
 							<input type="text" REQUIRED name="nombre" placeholder="Ingresa el nombre" value=""/>
-							<input type="text" REQUIRED name="descripcion" placeholder="Ingresa la descripcion" value=""/>
+							<textarea type="text" REQUIRED name="descripcion" placeholder="Ingresa la descripcion" value=""></textarea>
 
 							 <form action="#">
 							    <div class="file-field input-field">
@@ -45,10 +47,14 @@
 								<option value="4">Oxido Nitrico</option>
 								<option value="5">Quemadores</option>
 								<option value="6">Accesorios</option>
+								<option value="7">Ganadores</option>
+								<option value="8">Carbohidratos</option>
+								<option value="9">Varios</option>
+								<option value="10">Proximos productos</option>
 							</select>
 							<input type="number" REQUIRED name="precio" placeholder="Ingresa el precio:" value=""/>
-							<input type="number" REQUIRED name="stock" placeholder="Stock Disponible:" value=""/>
-							<input type="number" REQUIRED name="precioAdministrador" placeholder="Ingresa el precio para Proveedor:" value=""/>			
+							<input type="number" REQUIRED name="precioAdministrador" placeholder="Ingresa el precio para Proveedor:" value=""/>
+							<input type="number" REQUIRED name="stock" placeholder="Stock Disponible:" value=""/>			
 							<input  class="waves-effect waves-light btn" type="submit" value="Subir" name="Aceptar"/>
 
 
